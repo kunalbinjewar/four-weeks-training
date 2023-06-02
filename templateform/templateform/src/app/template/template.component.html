@@ -1,0 +1,26 @@
+<header>
+    <div class="templateform"></div>
+    <p>Templateform</p>
+</header>
+<form #myForm="ngForm" (ngSubmit)="onSubmit()">
+    
+      
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="formData.name" required>
+  </div>
+  
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" [(ngModel)]="formData.email" required email>
+  </div>
+  
+  <div>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" [(ngModel)]="formData.message" required></textarea>
+  </div>
+
+  
+  
+  <button type="submit">Submit</button>
+</form>
