@@ -1,0 +1,107 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: white;
+    font-size: 29px;
+    margin: bottom 25px;;
+    text-align: center;
+    text-shadow: aquamarine;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    text-size-adjust: 12px;
+    outline: #4caf50;
+    text-decoration-line: underline;
+  }
+  
+  .form-row {
+    display: -ms-inline-flexbox;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    outline: #4caf50;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline-style: initial;
+    border-style: initial;
+    color: black;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  span{
+    color:red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+   
+  }
+
+  button:hover{
+    color: chocolate;
+  }
+
+  .error-input {
+    border: 1px solid red;
+  }
+  
+  .text-danger {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .btnRemove{
+margin-bottom: 9px;
+  }
+  
+  .btnRemove:hover{
+    color: teal;
+    background-color: cornflowerblue;
+    shape-outside: initial;
+    shape-margin: initial;
+  }
+
+.addbutton{
+  color: coral;
+  background-color: black;
+  text-decoration: darkgray;
+  margin-bottom: 9px;
+}
+
+.addbutton:hover{
+  color: seagreen;
+  text-shadow: cadetblue;
+}
